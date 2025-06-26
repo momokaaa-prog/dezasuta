@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+.container {
+    display: flex;
+    width: 960px;
+    padding: 20px 0px;
+    align-items: center;
+}
+
+h1 {
+    width: 300px;
+    margin: 0px;
+    padding-left: 20px;
+    color: #4c4c4c;
+}
+ul {
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    justify-content: flex-end;
+    width: 620px;
+}
+
+
+a { 
+    color: #4c4c4c;
+    }
+
+li+li {
+    border-left: 1px solid #4c4c4c; padding-left: 20px;
+}

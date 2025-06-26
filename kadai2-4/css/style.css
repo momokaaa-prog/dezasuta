@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+.container {
+    display: flex;
+    width: 960px;
+    padding: 20px 0px;
+    align-items: center;
+}
+
+h1 {
+    width: 300px;
+    margin: 0px;
+    padding-left: 20px;
+    color: #4c4c4c;
+    font-size: 30px;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+    padding-right: 20px;
+    margin: 0;
+    justify-content: flex-end;
+    width: 620px;
+    
+}
+
+li{
+    border-bottom: 1px solid #4c4c4c;
+}
+
+@media screen and (max-width :768px){
+ ul{
+    flex-direction: column;
+ }
+}
